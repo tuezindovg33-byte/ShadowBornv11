@@ -1,0 +1,22 @@
+SHADOWBORN RPG v10 — INSTALAÇÃO
+
+1) Substitua os arquivos do seu GitHub Pages pelos arquivos deste ZIP.
+2) IMPORTANTE: copie o conteúdo do novo Code.gs para o seu Google Apps Script.
+3) No Apps Script, faça uma NOVA IMPLANTAÇÃO/DEPLOY do Web App para publicar as novas ações de Itens.
+4) A aba "Itens" da planilha é criada automaticamente na primeira chamada do sistema.
+
+ADMIN > NPCs
+- Você pode colar uma URL direta de PNG/JPG/WebP/GIF.
+- O preview aparece antes de salvar.
+- Se a URL estiver vazia, o NPC/Boss usa o editor Pixel Art.
+- Drops continuam no formato: item_id,chance,min,max
+  Exemplo: pocao_vida,30,1,2
+  Exemplo: cristal_sombrio,15,1,1
+
+ADMIN > ITENS
+- Crie itens personalizados com ID, nome, tipo, raridade, ícone por URL e descrição.
+- O ID criado pode ser usado diretamente na tabela de drops dos NPCs/Bosses.
+
+ÍCONES
+- 39 ícones SVG estão em assets/icons/ e já são usados pelo inventário.
+- Itens padrão incluem moedas, poções, equipamentos, materiais, itens de missão/evento e especiais.

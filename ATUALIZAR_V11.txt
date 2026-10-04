@@ -1,0 +1,26 @@
+SHADOWBORN RPG v11 — BOSSES, FUNDOS, MISSOES E ICONES
+
+Inclui todos os recursos da v10 e a campanha de dez bosses.
+39 icones em assets/icons, inventario com raridade e aba Itens do Admin.
+10 PNGs de bosses e 10 fundos PNG tematicos em assets/background/bosses.
+Missões: cada vitória libera a próxima. Recompensas de missão coletáveis uma vez.
+Bosses deixam Ficha de Boss e podem deixar Fragmentos Sombrios no inventário.
+Progresso da campanha e inventário salvo neste navegador.
+
+ADMIN > NPCs
+Marque Boss para cadastrar chefão. Cole um link direto de imagem ou escolha um arquivo no computador.
+Envio de arquivo: imagem reduzida automaticamente e salva como PNG estático com transparência quando presente. GIF enviado perde animação.
+Preview antes de salvar. Campo Escala controla o tamanho usando altura base de 64px.
+Desenho pixel art continua disponível quando não há imagem.
+Para usar um boss numa fase, selecione-o no editor de fases e salve a fase.
+
+INSTALAÇÃO
+1. Envie todos os arquivos deste ZIP para a raiz do repositório do GitHub Pages.
+2. Substitua Code.gs no Google Apps Script pelo arquivo incluído, se ainda não atualizou o backend da v10.
+3. Publique uma nova versão na implantação do Web App. Preserve o endereço /exec configurado no jogo.
+4. A aba Itens é criada pelo backend.
+
+VALIDAÇÃO
+Sintaxe JavaScript, IDs HTML, catálogo de 39 ícones e progressão da campanha verificados.
+Não houve teste visual completo no navegador nem teste de gravação no backend real.
+Esta entrega não altera automaticamente o site publicado.
